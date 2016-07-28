@@ -1,0 +1,41 @@
+doctype html
+html(lang="ru")
+head
+  meta(charset="UTF-8")
+  meta(http-equiv="X-UA-Compatible" content="IE-edge")
+  meta(name="viewport" width="1230" content="width=device-width, initial-scale=1")
+  meta(name="description" content="")
+  meta(name="keywords" content="")
+  meta(name="author" content="Антон Черкасов")
+  title site1
+  link(rel="shortcut icon" href="img/xxxxxxxx.png" type="image/png")
+  link(rel="stylesheet", href="bower/normalize-css/normalize.css")
+  link(rel="stylesheet", href="css/main.css")
+body
+  .container
+    header.header.clearfix
+      .header_logo
+        .header_img
+          img(src="img/logo.png", alt="#" title="Логотип")
+          span.hidden-text FORKIO
+      .header_menu.clearfix
+        ul.menu-ul
+          li.header_menu-item 
+            a(href="#").header_menu-link
+              span Overview
+          li.header_menu-item 
+            a(href="#").header_menu-link
+              span About Fork
+          li.header_menu-item 
+            a(href="#").header_menu-link
+              span Buylng Options
+          li.header_menu-item
+            a(href="#").header_menu-link
+              span Support   
+        form(action="#").header_form-btn
+          input(type="submit" value="Buy Now").header_button     
+    .bg-box
+      .bg-box_text
+        h1.bg-box_title Fork app
+        p.bg-box_pg-1 A real gamechanger in the world of web development
+        p.bg-box_pg-2 v. 2.8 For Mac and Windows

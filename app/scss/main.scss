@@ -1,41 +1,52 @@
 body {
-  background: #282828; }
+  background: #282828;
+}
 
 .clearfix:before,
 .clearfix:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
 .hidden-text {
   position: absolute;
   top: 0;
-  left: -9999px; }
+  left: -9999px;
+}
 
 a {
-  display: block; }
+  display: block;
+}
 
 .container {
   max-width: 1380px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .header {
-  background: #fff; }
+  background: #fff;
+}
 
 .header_logo {
-  float: left; }
+  float: left;
+}
 
 .header_img {
-  margin: 32px 0 32px 54px; }
+  margin: 32px 0 32px 54px;
+}
 
 .header_menu {
-  float: right; }
+  float: right;
+}
 
 .menu-ul {
   float: left;
-  margin: -20px 20px 0 0; }
+  margin: -20px 20px 0 0;
+}
 
 .header_menu-item {
   float: left;
@@ -43,27 +54,32 @@ a {
   margin: 50px 0 40px 25px;
   padding: 0;
   font-family: "Monsserat Bold", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .header_menu-item:nth-child(1) {
-  margin-left: 0; }
+  margin-left: 0;
+}
 
 .header_menu-link {
   text-decoration: none;
   color: #635c73;
   font-weight: bold;
   line-height: 34px;
-  padding: 6px 25px; }
+  padding: 6px 25px;
+}
 
 .header_menu-link:hover {
   background: #8d81ac;
   border-radius: 30px;
   color: #fff;
-  padding: 6px 25px; }
+  padding: 6px 25px;
+}
 
 .header_form-btn {
   float: right;
-  margin: 30px 50px 0 0; }
+  margin: 30px 50px 0 0;
+}
 
 .header_button {
   width: 145px;
@@ -73,13 +89,15 @@ a {
   border: 1px solid #8d81ac;
   font-weight: bold;
   padding: 12px 0;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .bg-box {
   background-image: url(../img/BG.jpg);
   max-width: 1380px;
   height: 800px;
-  position: relative; }
+  position: relative;
+}
 
 .bg-box_text {
   width: 700px;
@@ -87,7 +105,8 @@ a {
   position: absolute;
   top: 100px;
   left: 50%;
-  margin-left: -350px; }
+  margin-left: -350px;
+}
 
 .bg-box_title {
   color: #fff;
@@ -95,17 +114,20 @@ a {
   text-align: center;
   margin: 0;
   font-family: "Monsserat Bold", sans-serif;
-  font-size: 82px; }
+  font-size: 82px;
+}
 
 .bg-box_pg-1 {
   text-align: center;
   font-family: "Lato Regular", sans-serif;
   font-size: 28px;
-  color: #7a7096; }
+  color: #7a7096;
+}
 
 .bg-box_pg-2 {
   color: #5e656c;
   text-align: center;
   text-transform: uppercase;
   font-family: "Lato Regular", sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+}
