@@ -13,29 +13,47 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="container">
-    <header class="header clearfix">
-      <div class="header_logo">
-        <div class="header_img"><img src="img/logo.png" alt="#" title="Логотип"><span class="hidden-text">FORKIO</span></div>
-      </div>
-      <div class="header_menu clearfix">
-        <ul class="menu-ul">
-          <li class="header_menu-item"> <a href="#" class="header_menu-link"><span>Overview</span></a></li>
-          <li class="header_menu-item"> <a href="#" class="header_menu-link"><span>About Fork</span></a></li>
-          <li class="header_menu-item"> <a href="#" class="header_menu-link"><span>Buylng Options</span></a></li>
-          <li class="header_menu-item"><a href="#" class="header_menu-link"><span>Support   </span></a></li>
-        </ul>
-        <form action="#" class="header_form-btn">
-          <input type="submit" value="Buy Now" class="header_button">
-        </form>
+  <div class="wrapper"> 
+    <header class="header">
+      <div class="container clearfix"> 
+        <div class="header__logo">
+          <div class="header__img"><img src="img/logo.png" alt="#" title="Логотип"><span class="hidden-text">FORKIO</span></div>
+        </div>
+        <div class="header__menu clearfix">
+          <ul class="header__menu-list">
+            <li class="header__menu-item"> <a href="#" class="header__menu-link"><span>Overview</span></a></li>
+            <li class="header__menu-item"> <a href="#" class="header__menu-link"><span>About Fork</span></a></li>
+            <li class="header__menu-item"> <a href="#" class="header__menu-link"><span>Buylng Options</span></a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link"><span>Support   </span></a></li>
+          </ul>
+          <form action="#" class="header__form-btn header__form-btn--header">
+            <input type="submit" value="Buy Now" class="header__button header__button--header">
+          </form>
+        </div>
       </div>
     </header>
-    <div class="bg-box">
-      <div class="bg-box_text">
-        <h1 class="bg-box_title">Fork app</h1>
-        <p class="bg-box_pg-1">A real gamechanger in the world of web development</p>
-        <p class="bg-box_pg-2">v. 2.8 For Mac and Windows</p>
+    <div class="content">       
+      <div class="container">         
+        <div class="bg-box">
+          <div class="bg-box__text">
+            <h1 class="bg-box__title">Fork app</h1>
+            <p class="bg-box__pg-1">A real gamechanger in the world of web development</p>
+            <p class="bg-box__pg-2">v. 2.8 For Mac and Windows</p>
+          </div>
+        </div>
+        <section class="b-revolution">
+          <form action="#" class="header__form-btn">
+            <input type="submit" value="Downloud For Free Now" class="header__button header__button--revol">
+          </form><span>Ultimited 30-Days Trial Period  </span>
+          <h1 class="b-revolution__title">Revolutionary aditor </h1>
+          <p>Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.   </p>
+        </section>
       </div>
     </div>
+    <footer class="footer"> 
+      <div class="footer__logo">
+        <div class="footer__img"><img src="img/logo.png" alt="#" title="Логотип"><span class="hidden-text">FORKIO</span></div>
+      </div>
+    </footer>
   </div>
 </body>

@@ -1,5 +1,24 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
   background: #282828;
+}
+
+.wrapper {
+  display: table;
+  max-width: 1380px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  display: table-row;
+  height: 100%;
 }
 
 .clearfix:before,
@@ -28,27 +47,28 @@ a {
 }
 
 .header {
+  display: table-row;
   background: #fff;
 }
 
-.header_logo {
+.header__logo {
   float: left;
 }
 
-.header_img {
+.header__img {
   margin: 32px 0 32px 54px;
 }
 
-.header_menu {
+.header__menu {
   float: right;
 }
 
-.menu-ul {
+.header__menu-list {
   float: left;
   margin: -20px 20px 0 0;
 }
 
-.header_menu-item {
+.header__menu-item {
   float: left;
   list-style: none;
   margin: 50px 0 40px 25px;
@@ -61,7 +81,7 @@ a {
   margin-left: 0;
 }
 
-.header_menu-link {
+.header__menu-link {
   text-decoration: none;
   color: #635c73;
   font-weight: bold;
@@ -69,65 +89,88 @@ a {
   padding: 6px 25px;
 }
 
-.header_menu-link:hover {
+.header__menu-link:hover {
   background: #8d81ac;
   border-radius: 30px;
   color: #fff;
   padding: 6px 25px;
 }
 
-.header_form-btn {
-  float: right;
-  margin: 30px 50px 0 0;
+.header__form-btn {
+
 }
 
-.header_button {
-  width: 145px;
+.header__form-btn--header {
+  float: right;
+  margin: 30px 50px 0 0;
+ }
+
+.header__button {
   border-radius: 30px;
   background: #8d81ac;
   color: #fff;
   border: 1px solid #8d81ac;
   font-weight: bold;
-  padding: 12px 0;
   cursor: pointer;
+}
+
+.header__button--header {
+  padding: 12px 40px;
+}
+
+.header__button--revol {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -150px;
+  padding: 20px 65px;
 }
 
 .bg-box {
   background-image: url(../img/BG.jpg);
-  max-width: 1380px;
+  width: 1380px;
   height: 800px;
   position: relative;
 }
 
-.bg-box_text {
-  width: 700px;
-  border: 1px solid white;
+.bg-box__text {
   position: absolute;
   top: 100px;
   left: 50%;
   margin-left: -350px;
+  width: 700px;
+  border: 1px solid white;
 }
 
-.bg-box_title {
+.bg-box__title {
   color: #fff;
   text-transform: capitalize;
   text-align: center;
-  margin: 0;
   font-family: "Monsserat Bold", sans-serif;
   font-size: 82px;
+  margin: 0;
 }
 
-.bg-box_pg-1 {
+.bg-box__pg-1 {
   text-align: center;
   font-family: "Lato Regular", sans-serif;
   font-size: 28px;
   color: #7a7096;
 }
 
-.bg-box_pg-2 {
+.bg-box__pg-2 {
   color: #5e656c;
   text-align: center;
   text-transform: uppercase;
   font-family: "Lato Regular", sans-serif;
   font-size: 20px;
+}
+
+.b-revolution {
+  background: #fff;
+  position: relative;
+}
+
+.footer {
+  background: #fff;
 }

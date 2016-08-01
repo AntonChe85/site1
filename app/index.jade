@@ -12,30 +12,44 @@ head
   link(rel="stylesheet", href="bower/normalize-css/normalize.css")
   link(rel="stylesheet", href="css/main.css")
 body
-  .container
-    header.header.clearfix
-      .header_logo
-        .header_img
+  .wrapper  
+    header.header
+      .container.clearfix 
+        .header__logo
+          .header__img
+            img(src="img/logo.png", alt="#" title="Логотип")
+            span.hidden-text FORKIO
+        .header__menu.clearfix
+          ul.header__menu-list
+            li.header__menu-item 
+              a(href="#").header__menu-link
+                span Overview
+            li.header__menu-item 
+              a(href="#").header__menu-link
+                span About Fork
+            li.header__menu-item 
+              a(href="#").header__menu-link
+                span Buylng Options
+            li.header__menu-item
+              a(href="#").header__menu-link
+                span Support   
+          form(action="#").header__form-btn.header__form-btn--header
+            input(type="submit" value="Buy Now").header__button.header__button--header
+    .content        
+      .container          
+        .bg-box
+          .bg-box__text
+            h1.bg-box__title Fork app
+            p.bg-box__pg-1 A real gamechanger in the world of web development
+            p.bg-box__pg-2 v. 2.8 For Mac and Windows
+        section.b-revolution
+          form(action="#").header__form-btn
+            input(type="submit" value="Downloud For Free Now").header__button.header__button--revol 
+          span Ultimited 30-Days Trial Period  
+          h1.b-revolution__title Revolutionary aditor 
+          p Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.   
+    footer.footer 
+      .footer__logo
+        .footer__img
           img(src="img/logo.png", alt="#" title="Логотип")
           span.hidden-text FORKIO
-      .header_menu.clearfix
-        ul.menu-ul
-          li.header_menu-item 
-            a(href="#").header_menu-link
-              span Overview
-          li.header_menu-item 
-            a(href="#").header_menu-link
-              span About Fork
-          li.header_menu-item 
-            a(href="#").header_menu-link
-              span Buylng Options
-          li.header_menu-item
-            a(href="#").header_menu-link
-              span Support   
-        form(action="#").header_form-btn
-          input(type="submit" value="Buy Now").header_button     
-    .bg-box
-      .bg-box_text
-        h1.bg-box_title Fork app
-        p.bg-box_pg-1 A real gamechanger in the world of web development
-        p.bg-box_pg-2 v. 2.8 For Mac and Windows
